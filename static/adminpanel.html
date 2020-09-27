@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Добавление статьи</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/admin">
+	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="js/admin"></script>
+</head>
+<body>
+<div class="input-buffer"></div>
+<div id="titleblock">
+	<h2>Добавление статьи</h2>
+	<input type="text" id="title" autocomplete="off" placeholder="Название" maxlength="75">
+</div>
+<div class="body">
+	<textarea id="body" autocomplete="off" placeholder="Текст" maxlength="5000"></textarea>
+</div>
+<div class="publicDiv"><button class="public" onclick="publish()">Опубликовать</button></div>
+</body>
+</html>
